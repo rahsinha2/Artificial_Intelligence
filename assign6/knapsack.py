@@ -19,10 +19,12 @@ def randomSelection(population,fitnesses):
     *********Using Group Selection*************
     '''
     size = len(population)
+    # elements represent index of four equal partitions of the array.
+    # weights represent probalities of selection from corresponding partitions.
     elements = [1, 2, 3, 4] 
     weights = [0.50, 0.30, 0.15, 0.05]
     array_partition = choice(elements, p=weights)
-    
+    #Array partitioning for Group Selection    
     if array_partition == 1:
 	lower = 0
 	upper = (size/4)-1;
@@ -38,31 +40,26 @@ def randomSelection(population,fitnesses):
     
     index = random.randint(lower,upper)
     indexes = np.argsort(fitnesses)[::-1]
-    return population[indexes[index]]
+    selected = deepcopy(population[indexes[index]])
+    return selected
     
 
 def reproduce(mom,dad):
     "This does genetic algorithm crossover. This takes two chromosomes, mom and dad, and returns two chromosomes."
-    #child1 = deepcopy(mom)
-    #child2 = deepcopy(dad)
     length = len(mom)	
-    #print "length", length
     pos = random.randint(0,length-2)
-    #print "crossover ", pos
     for i in range(pos+1, length):
     	mom[i] , dad[i] = dad[i], mom[i]
     return mom, dad
 
 def mutate(child, mutation_probability):
     "Takes a child, produces a mutated child."
-    #mutated = deepcopy(child)
     length = len(child)
-    for i in range(0,length):
-        flip_or_not = random.uniform(0, 1)
-	if flip_or_not <= mutation_probability:
-    	    child[i] = not child[i]
-    #print "child   = ",child
-    #print "mutated = ",mutated
+    #Check if mutation will be done based on mutation_probability
+    mutate_or_not = random.uniform(0, 1)
+    if mutate_or_not <= mutation_probability:
+        pos = random.randint(0,length-1)
+	child[pos] = not child[pos]
     return child
 
 def fitness(max_volume,volumes,prices):
@@ -88,6 +85,9 @@ def compute_fitnesses(world,chromosomes):
     return [fitness(world[0], world[1] * chromosome, world[2] * chromosome) for chromosome in chromosomes]
 
 def init_population(world, popsize):
+    '''
+    This is for initialization of the population every time we start with a new problem instance like sanity, easy, medium, hard
+    '''
     return np.random.randint(2, size=(popsize,len(world[1])))
 
 def genetic_algorithm(world,popsize,max_years,mutation_probability):
@@ -100,26 +100,27 @@ def genetic_algorithm(world,popsize,max_years,mutation_probability):
     result = []
     population = init_population(world,popsize)
     fitnesses = compute_fitnesses(world, population)
-    tuple1 = (population, fitnesses)
-    result.append(tuple1)
-    
+    Tuple = (population, fitnesses)
+    result.append(Tuple)
     
     for i in range(0,max_years):
-	population_new = deepcopy(population)
-    	mom = randomSelection(population_new, fitnesses)
-    	dad = randomSelection(population_new, fitnesses)
-    	#print "mom = ", mom, " dad = ",dad
-   	child1, child2 = reproduce(mom,dad)
-    	#print "child1 = ", child1, " child2 = ",child2
-    	x = mutate(child1, mutation_probability)
-    	y = mutate(child2, mutation_probability)
+        fitness_new = []
+    	population_new = []    
+	while len(population_new) != popsize:
+      	    mom = randomSelection(population, fitnesses)
+    	    dad = randomSelection(population, fitnesses)
+   	    child1, child2 = reproduce(mom,dad)
+    	    mutated1 = mutate(child1, mutation_probability)
+    	    mutated2 = mutate(child2, mutation_probability)
+            population_new.append(mutated1)  
+            population_new.append(mutated2)  
+	
     	fitnesses_new = compute_fitnesses(world, population_new)
-	print "New"
-	print fitnesses_new    
-	tuple1 = (population_new, fitnesses_new)
-    	result.append(tuple1)
+	Tuple = (population_new, fitnesses_new)
+    	result.append(Tuple)
     	population = population_new 
         fitnesses = fitnesses_new
+        
     return result
 
 def run(popsize,max_years,mutation_probability):
@@ -162,4 +163,4 @@ def run(popsize,max_years,mutation_probability):
     pass
 
 if __name__ == "__main__":
-    run(10,50,0.2)
+    run(80,50,0.2)

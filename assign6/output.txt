@@ -1,0 +1,193 @@
+*******************************************
+Parameters: run(10,50,0.2)
+*******************************************
+[rahsinha@silo assign6]$ python knapsack.py 
+Best year for difficulty sanity_check is 0 with high score 100.0 and chromosome [1 0 0]
+Best year for difficulty easy is 5 with high score 15.0 and chromosome [0 1 1 0 0]
+Best year for difficulty medium is 27 with high score 119.0 and chromosome [1 1 0 1 0 0 1 0 1 0 1 0 0 0 0 0 0 1 1 1 0]
+Best year for difficulty hard is 45 with high score 13345.080929 and chromosome [1 0 1 0 1 1 1 1 1 0 1 1 0 1 1 1 1 1 0 1 0 1 1 1 0 0 1 1 1 1 0 1 1 1 1 1 1
+ 0 1 1 1 1 0 1 1 1 1 0 0 0 1 1 0 0 0 1 1 0 1 0 1 0 0 1 0 1 1 0 0 1 1 1 1 1
+ 1 0 1 1 0 1 1 1 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 0 1 1]
+[rahsinha@silo assign6]$ python knapsack.py 
+Best year for difficulty sanity_check is 0 with high score 100.0 and chromosome [1 0 0]
+Best year for difficulty easy is 0 with high score 13.0 and chromosome [0 1 0 0 1]
+Best year for difficulty medium is 0 with high score 0.0 and chromosome [0 0 0 0 1 0 0 0 1 0 1 0 1 1 0 1 1 1 0 1 0]
+Best year for difficulty hard is 47 with high score 15573.459085 and chromosome [1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 1 1
+ 1 1 1 0 1 0 0 1 1 1 1 1 1 0 0 0 1 0 1 1 1 1 1 0 1 0 1 1 0 0 1 1 0 1 1 1 1
+ 1 0 1 1 1 0 1 1 0 1 1 1 1 0 1 1 1 1 1 1 0 0 1 1 1 1]
+[rahsinha@silo assign6]$ python knapsack.py 
+Best year for difficulty sanity_check is 0 with high score 100.0 and chromosome [1 0 0]
+Best year for difficulty easy is 25 with high score 15.0 and chromosome [0 1 1 0 0]
+Best year for difficulty medium is 2 with high score 150.0 and chromosome [1 0 0 1 1 1 1 0 0 1 1 0 1 0 1 0 0 0 0 1 0]
+Best year for difficulty hard is 50 with high score 16333.2915122 and chromosome [0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0 1 1 0
+ 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1
+ 0 1 1 1 1 0 1 1 0 0 1 1 0 1 1 0 1 1 1 0 1 1 1 1 1 0]
+[rahsinha@silo assign6]$ python knapsack.py 
+Best year for difficulty sanity_check is 0 with high score 80.0 and chromosome [0 0 1]
+Best year for difficulty easy is 4 with high score 15.0 and chromosome [0 1 1 0 0]
+Best year for difficulty medium is 2 with high score 132.0 and chromosome [1 0 0 1 0 0 0 0 1 1 1 0 0 0 1 0 0 0 1 0 1]
+Best year for difficulty hard is 47 with high score 15654.67167 and chromosome [1 1 0 0 1 1 1 1 0 1 0 0 1 1 1 1 1 1 1 1 0 0 0 0 1 1 1 0 0 1 1 1 0 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 0 1 0 0
+ 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 0 0 1 1 1]
+[rahsinha@silo assign6]$ python knapsack.py 
+Best year for difficulty sanity_check is 0 with high score 100.0 and chromosome [1 0 0]
+Best year for difficulty easy is 46 with high score 15.0 and chromosome [0 1 1 0 0]
+Best year for difficulty medium is 0 with high score 67.0 and chromosome [0 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0]
+Best year for difficulty hard is 46 with high score 14634.0933095 and chromosome [1 1 1 1 1 1 1 1 0 0 1 1 1 0 1 0 0 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1
+ 1 0 0 0 1 1 0 0 1 0 0 1 1 1 0 1 1 1 0 0 0 1 1 0 1 1 1 1 0 1 0 0 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 0 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1]
+[rahsinha@silo assign6]$
+*******************************************
+Parameters: run(40,50,0.2)
+*******************************************
+[rahsinha@silo assign6]$ python knapsack.py 
+Best year for difficulty sanity_check is 0 with high score 100.0 and chromosome [1 0 0]
+Best year for difficulty easy is 1 with high score 15.0 and chromosome [0 1 1 0 0]
+Best year for difficulty medium is 25 with high score 160.0 and chromosome [1 0 0 1 0 0 1 1 0 1 1 0 1 0 1 0 0 1 0 1 0]
+Best year for difficulty hard is 50 with high score 19274.1382023 and chromosome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0]
+[rahsinha@silo assign6]$ python knapsack.py 
+Best year for difficulty sanity_check is 0 with high score 100.0 and chromosome [1 0 0]
+Best year for difficulty easy is 0 with high score 15.0 and chromosome [0 1 1 0 0]
+Best year for difficulty medium is 41 with high score 154.0 and chromosome [1 0 0 1 0 1 1 1 0 0 1 0 1 0 1 0 0 1 0 1 1]
+Best year for difficulty hard is 50 with high score 18408.5376058 and chromosome [1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 0 1
+ 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+[rahsinha@silo assign6]$ python knapsack.py 
+Best year for difficulty sanity_check is 0 with high score 100.0 and chromosome [1 0 0]
+Best year for difficulty easy is 0 with high score 15.0 and chromosome [0 1 1 0 0]
+Best year for difficulty medium is 20 with high score 139.0 and chromosome [1 0 1 1 1 1 1 0 1 0 1 0 1 0 0 0 0 0 0 0 0]
+Best year for difficulty hard is 50 with high score 18921.5085777 and chromosome [1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 1 1 1 1 1 1 1 1]
+[rahsinha@silo assign6]$ python knapsack.py 
+Best year for difficulty sanity_check is 0 with high score 100.0 and chromosome [1 0 0]
+Best year for difficulty easy is 0 with high score 15.0 and chromosome [0 1 1 0 0]
+Best year for difficulty medium is 6 with high score 145.0 and chromosome [1 0 0 1 1 0 1 0 0 0 0 0 0 0 0 1 0 1 0 1 1]
+Best year for difficulty hard is 45 with high score 17826.326916 and chromosome [1 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0
+ 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1
+ 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1]
+[rahsinha@silo assign6]$
+*******************************************
+Parameters: run(80,50,0.2)
+*******************************************
+[rahsinha@silo assign6]$ python knapsack.py 
+Best year for difficulty sanity_check is 0 with high score 100.0 and chromosome [1 0 0]
+Best year for difficulty easy is 0 with high score 15.0 and chromosome [0 1 1 0 0]
+Best year for difficulty medium is 21 with high score 162.0 and chromosome [1 0 0 1 1 0 0 1 1 0 1 0 1 0 1 0 0 1 0 1 0]
+Best year for difficulty hard is 50 with high score 18873.3057131 and chromosome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 0 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1]
+[rahsinha@silo assign6]$ python knapsack.py 
+Best year for difficulty sanity_check is 0 with high score 100.0 and chromosome [1 0 0]
+Best year for difficulty easy is 0 with high score 15.0 and chromosome [0 1 1 0 0]
+Best year for difficulty medium is 16 with high score 163.0 and chromosome [1 0 0 1 1 0 1 1 0 1 1 0 0 0 1 0 0 1 0 0 0]
+Best year for difficulty hard is 50 with high score 20503.9838333 and chromosome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1]
+[rahsinha@silo assign6]$ python knapsack.py 
+Best year for difficulty sanity_check is 0 with high score 100.0 and chromosome [1 0 0]
+Best year for difficulty easy is 0 with high score 15.0 and chromosome [0 1 1 0 0]
+Best year for difficulty medium is 20 with high score 162.0 and chromosome [1 0 0 1 1 0 0 1 1 0 1 0 1 0 1 0 0 1 0 1 0]
+Best year for difficulty hard is 50 with high score 20217.4208963 and chromosome [1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+[rahsinha@silo assign6]$ python knapsack.py 
+Best year for difficulty sanity_check is 0 with high score 100.0 and chromosome [1 0 0]
+Best year for difficulty easy is 0 with high score 15.0 and chromosome [0 1 1 0 0]
+Best year for difficulty medium is 16 with high score 161.0 and chromosome [1 0 0 1 0 0 0 1 0 0 1 0 1 0 1 1 0 1 0 1 0]
+Best year for difficulty hard is 50 with high score 18748.9213776 and chromosome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1]
+[rahsinha@silo assign6]
+*******************************************
+Parameters: run(100,50,0.2)
+*******************************************
+[rahsinha@silo assign6]$ python knapsack.py 
+Best year for difficulty sanity_check is 0 with high score 100.0 and chromosome [1 0 0]
+Best year for difficulty easy is 0 with high score 15.0 and chromosome [0 1 1 0 0]
+Best year for difficulty medium is 26 with high score 163.0 and chromosome [1 0 0 1 1 0 1 1 0 1 1 0 0 0 1 0 0 1 0 0 0]
+Best year for difficulty hard is 47 with high score 19288.2124077 and chromosome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+[rahsinha@silo assign6]$ python knapsack.py 
+Best year for difficulty sanity_check is 0 with high score 100.0 and chromosome [1 0 0]
+Best year for difficulty easy is 0 with high score 15.0 and chromosome [0 1 1 0 0]
+Best year for difficulty medium is 32 with high score 159.0 and chromosome [1 0 0 1 1 1 1 0 0 1 1 0 1 0 1 0 0 1 0 1 0]
+Best year for difficulty hard is 50 with high score 19631.2242328 and chromosome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+[rahsinha@silo assign6]$ python knapsack.py 
+Best year for difficulty sanity_check is 0 with high score 100.0 and chromosome [1 0 0]
+Best year for difficulty easy is 0 with high score 15.0 and chromosome [0 1 1 0 0]
+Best year for difficulty medium is 18 with high score 160.0 and chromosome [1 0 0 1 1 0 1 1 1 0 1 0 0 0 1 0 0 1 0 1 0]
+Best year for difficulty hard is 49 with high score 20637.8856758 and chromosome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+[rahsinha@silo assign6]$ python knapsack.py 
+Best year for difficulty sanity_check is 0 with high score 100.0 and chromosome [1 0 0]
+Best year for difficulty easy is 0 with high score 15.0 and chromosome [0 1 1 0 0]
+Best year for difficulty medium is 19 with high score 162.0 and chromosome [1 0 0 1 1 0 0 1 1 0 1 0 1 0 1 0 0 1 0 1 0]
+Best year for difficulty hard is 49 with high score 20288.8725981 and chromosome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+[rahsinha@silo assign6]$
+*******************************************
+Parameters: run(100,100,0.2)
+*******************************************
+[rahsinha@silo assign6]$ python knapsack.py 
+Best year for difficulty sanity_check is 0 with high score 100.0 and chromosome [1 0 0]
+Best year for difficulty easy is 0 with high score 15.0 and chromosome [0 1 1 0 0]
+Best year for difficulty medium is 32 with high score 160.0 and chromosome [1 0 0 1 1 1 0 0 0 0 1 0 1 0 1 1 0 1 0 1 0]
+Best year for difficulty hard is 66 with high score 19668.7534165 and chromosome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+[rahsinha@silo assign6]$ python knapsack.py 
+Best year for difficulty sanity_check is 0 with high score 100.0 and chromosome [1 0 0]
+Best year for difficulty easy is 0 with high score 15.0 and chromosome [0 1 1 0 0]
+Best year for difficulty medium is 14 with high score 160.0 and chromosome [1 0 0 1 1 1 0 0 0 0 1 0 1 0 1 1 0 1 0 1 0]
+Best year for difficulty hard is 49 with high score 20503.2077556 and chromosome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1]
+[rahsinha@silo assign6]$ python knapsack.py 
+Best year for difficulty sanity_check is 0 with high score 100.0 and chromosome [1 0 0]
+Best year for difficulty easy is 0 with high score 15.0 and chromosome [0 1 1 0 0]
+Best year for difficulty medium is 28 with high score 160.0 and chromosome [1 0 0 1 1 1 1 1 0 0 1 0 1 0 1 0 0 0 0 1 0]
+Best year for difficulty hard is 79 with high score 20584.11098 and chromosome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+[rahsinha@silo assign6]$ python knapsack.py 
+Best year for difficulty sanity_check is 0 with high score 100.0 and chromosome [1 0 0]
+Best year for difficulty easy is 0 with high score 15.0 and chromosome [0 1 1 0 0]
+Best year for difficulty medium is 21 with high score 163.0 and chromosome [1 0 0 1 1 0 1 1 0 1 1 0 0 0 1 0 0 1 0 0 0]
+Best year for difficulty hard is 60 with high score 19552.7202295 and chromosome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1]
+[rahsinha@silo assign6]$ python knapsack.py 
+Best year for difficulty sanity_check is 0 with high score 100.0 and chromosome [1 0 0]
+Best year for difficulty easy is 0 with high score 15.0 and chromosome [0 1 1 0 0]
+Best year for difficulty medium is 15 with high score 163.0 and chromosome [1 0 0 1 1 0 1 1 0 1 1 0 0 0 1 0 0 1 0 0 0]
+Best year for difficulty hard is 54 with high score 19467.0686119 and chromosome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+[rahsinha@silo assign6]$ python knapsack.py 
+Best year for difficulty sanity_check is 0 with high score 100.0 and chromosome [1 0 0]
+Best year for difficulty easy is 0 with high score 15.0 and chromosome [0 1 1 0 0]
+Best year for difficulty medium is 24 with high score 162.0 and chromosome [1 0 0 1 1 0 0 1 1 0 1 0 1 0 1 0 0 1 0 1 0]
+Best year for difficulty hard is 50 with high score 19972.0801923 and chromosome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1
+ 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+[rahsinha@silo assign6]$
+********************************************
+Just for fun
+Parameters: run(1000,1000,0.2)
+*******************************************
+[rahsinha@silo assign6]$ python knapsack.py 
+Best year for difficulty sanity_check is 0 with high score 100.0 and chromosome [1 0 0]
+Best year for difficulty easy is 0 with high score 15.0 and chromosome [0 1 1 0 0]
+Best year for difficulty medium is 14 with high score 163.0 and chromosome [1 0 0 1 1 0 1 1 0 1 1 0 0 0 1 0 0 1 0 0 0]
+Best year for difficulty hard is 32 with high score 20387.5444095 and chromosome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+[rahsinha@silo assign6]$
